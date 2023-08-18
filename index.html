@@ -17,7 +17,7 @@
     </header>
     <main>
         <button class="button blue mobile" type="button" id="cadastrarCliente">Cadastrar Cliente</button>
-        <table id="tableClient" class="">
+        <table id="tableClient" class="records">
             <thead>
                 <tr>
                     <th>Nome</th>
@@ -32,7 +32,7 @@
             </tbody>
 
         </table>
-        <div class="moda " id="modal">
+        <div class="moda" id="modal">
             <div class="modal-content">
                 <header class="modal-header">
                     <h2>Novo Cliente</h2>
@@ -44,9 +44,11 @@
                     <input type="tel" id="celular" class="modal-field" placeholder="Número do Cliente" required>
                     <input type="text" id="cidade" class="modal-field" placeholder="Cidade do Cliente" required>
                 </form>
-                <footer class="-footer">
-                    <button id="salvar" class="">Salvar</button>
-                    <button id="cancelar" class="">Cancelar</button>
+                <footer class="footer">
+                    <button id="salvar" class="button 
+                    green">Salvar</button>
+                    <button id="cancelar" class="button 
+                    red">Cancelar</button>
                 </footer>
             </div>
         </div>

@@ -31,6 +31,11 @@ header {
     gap: 20px;
 }
 
+.header-title {
+    color: #ffffff;
+    font-size: 2rem;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -49,11 +54,6 @@ footer {
     font-weight: 200;
     font-style: italic;
     padding: 20px;
-}
-
-.header-title {
-    color: black;
-    font-size: 2rem;
 }
 
 @media(max-width:480px) {
